@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Tests\\MyTestableApi.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj",
+        "projectName": "MyTestableApi.Api",
+        "projectPath": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj",
+        "packagesPath": "C:\\Users\\Doc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Doc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Users\\Doc\\scoop\\apps\\dotnet-sdk\\current\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Doc\\scoop\\apps\\dotnet-sdk\\current\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Tests\\MyTestableApi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Tests\\MyTestableApi.Tests.csproj",
+        "projectName": "MyTestableApi.Tests",
+        "projectPath": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Tests\\MyTestableApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\Doc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Doc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj": {
+                "projectPath": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Doc\\scoop\\apps\\dotnet-sdk\\current\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
