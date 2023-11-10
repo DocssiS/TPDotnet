@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj": {}
+    "C:\\Users\\alexi\\Desktop\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj": {
+    "C:\\Users\\alexi\\Desktop\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj",
+        "projectUniqueName": "C:\\Users\\alexi\\Desktop\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj",
         "projectName": "MyTestableApi.Api",
-        "projectPath": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj",
-        "packagesPath": "C:\\Users\\Doc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Doc\\OneDrive\\Bureau\\Cours Efficom\\TDD\\API Pays\\MyTestableApi\\MyTestableApi.Api\\obj\\",
+        "projectPath": "C:\\Users\\alexi\\Desktop\\MyTestableApi\\MyTestableApi.Api\\MyTestableApi.Api.csproj",
+        "packagesPath": "C:\\Users\\alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexi\\Desktop\\MyTestableApi\\MyTestableApi.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Doc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Users\\Doc\\scoop\\apps\\dotnet-sdk\\current\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "ChoETL": {
+              "target": "Package",
+              "version": "[1.2.1.64, )"
+            },
             "Microsoft.AspNetCore.Mvc.Testing": {
               "target": "Package",
               "version": "[7.0.13, )"
@@ -71,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Doc\\scoop\\apps\\dotnet-sdk\\current\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

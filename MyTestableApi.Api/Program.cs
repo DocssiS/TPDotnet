@@ -1,4 +1,4 @@
-internal partial class Program
+public partial class Program
 {
     private static void Main(string[] args)
     {
